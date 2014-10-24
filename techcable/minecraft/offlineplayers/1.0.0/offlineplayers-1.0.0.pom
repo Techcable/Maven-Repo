@@ -1,0 +1,51 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>techcable.minecraft</groupId>
+    <artifactId>offlineplayers</artifactId>
+    <version>1.0.0</version>
+    <name>Offline Player Access</name>
+    
+    <repositories>
+        <repository>
+            <id>bukkit-repo</id>
+            <url>http://repo.bukkit.org/content/repositories/public/</url>
+        </repository>
+        <repository>
+            <id>spacehq-releases</id>
+            <url>http://repo.spacehq.org/content/repositories/release/</url>
+        </repository>
+    </repositories>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.7.9-R0.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.14.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.spacehq</groupId>
+            <artifactId>opennbt</artifactId>
+            <version>1.4</version>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>            
+        </plugins>
+    </build>
+</project>
