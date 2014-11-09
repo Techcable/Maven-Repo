@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>net.citizensnpcs</groupId>
+  <artifactId>citizensapi</artifactId>
+  <version>2.0.13-SNAPSHOT</version>
+  <versioning>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.13-20141008.123920-437</value>
+        <updated>20141008123956</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.0.13-20141008.123920-437</value>
+        <updated>20141008123956</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
